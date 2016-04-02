@@ -48,7 +48,7 @@ Start looking for code to change in your index.html file to customize it and mak
 
 ### Adding Cupcakes to your Shop
 
-1. Open the shop.html file. Use the <li> tags to add more cupcake flavors to the one already there. Be sure to include a photo!
+1. Open the shop.html file. Use the list item tags to add more cupcake flavors to the one already there. Be sure to include a photo!
 
 ### Let's get stylish!
 
