@@ -8,7 +8,7 @@ while we wait for everyone to arrive, we have some fun activities for you to wor
 
 1. Install Google Chrome - this is our preferred browser to work in.
 2. If your daughter doesn’t have a gmail account, set her up with one. (It’s ok to say she’s 14 on their age restriction piece)
-3. Create an account at typing.io [typing.io](https://typing.io/) 
+3. Create an account at [typing.io](https://typing.io/) 
 4. Choose jQuery to practice!
 
 ## Project Setup
