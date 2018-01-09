@@ -30,7 +30,7 @@ To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. 
 Note: If you have trouble getting steps 4-6 to work, try the following **alternative method**:
 
 4.  In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
-5.  In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht&#58;tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
+5.  In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
 6.  For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
 
 Refer to the screenshot below for steps 7 & 8.
