@@ -55,13 +55,12 @@ Start looking for code to change in your **index.html** file to customize and ma
 
 ## Creating a Contact Page
 The easiest way to add another page to your website is to copy an existing page and then make changes to it. 
-1.  In Codeanywhere, right-click on **index.html** in the list of files and select Clone. Name the new file **contact.html** and then open it. It should be empty.
-2.  Copy all the code from index.html into the new file. 
+1.  In Codeanywhere, right-click on **index.html** in the list of files and select Clone. Name the new file **contact.html** and then open it. It should contain the same code as the index.html file.
 
 Next, you'll modify the content of the page. Let’s put the shop’s address so people know where to visit your store. 
 
-3.  Look in the body section of the code for the ```<div class=”content”>``` section (approx. line 24 of the code). 
-4.  In the content section of your contact page, add contact information between the ```<h1>``` and ```</h1>``` tags. 
+2.  Look in the body section of the code for the ```<div class=”content”>``` section (approx. line 24 of the code). 
+3.  In the content section of your contact page, add contact information between the ```<h1>``` and ```</h1>``` tags. 
     *  Use paragraph tags to insert your contact information, and anything else you want to say. Note: It’s okay to erase the content between those tags.
     *  You can use the Code Koalas address:
 
@@ -74,8 +73,8 @@ Next, you'll modify the content of the page. Let’s put the shop’s address so
 
 Now let's modify the navigation, which lets us know where we are on the website. You can see how the navigation works by going to your website and clicking between the **Home** and **Shop** tabs in the header. Notice the gray shading and pink bar that highlight each tab as you click between them. We want to make the same thing happen when you click on the Contact page. 
 
-5.  Find the ```class="selected"``` code in **index.html**. Notice that it's on the line with ```href="index.html"```. If you open the shop.html file and find ```class="selected"```, you'll notice that it's on the line with ```href="shop.html"```. This is how the code controls which navigation tab is highlighted in pink. 
-6.  In the **contact.html** page, move ```class="selected"``` to the line with ```href="contact.html"```. This way, the **Contact** tab will be highlighted when we're on the Contact page. 
+4.  Find the ```class="selected"``` code in **index.html**. Notice that it's on the line with ```href="index.html"```. If you open the shop.html file and find ```class="selected"```, you'll notice that it's on the line with ```href="shop.html"```. This is how the code controls which navigation tab is highlighted in pink. 
+5.  In the **contact.html** page, move ```class="selected"``` to the line with ```href="contact.html"```. This way, the **Contact** tab will be highlighted when we're on the Contact page. 
 
  
 ## Making a form
