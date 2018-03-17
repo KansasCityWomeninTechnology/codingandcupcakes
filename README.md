@@ -18,17 +18,19 @@ To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. 
     2.  Check your email for a Codeanywhere verification email.  
 
 ## Project Setup
-1.  Log into Github.
-2.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the fork button in the top right.
-3.  Log into Codeanywhere.
-4.  In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
-5.  In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
-6.  For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
+Log into Github.
+1.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the **fork** button in the top right. This copies the codingandcupcakes code into a repository in your GitHub account.
+
+Log into Codeanywhere.
+2. In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
+3. In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
+4. For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
 
 Refer to the screenshot below for steps 7 & 8.
 
-7.  In Codeanywhere, click **index.html** to open it. This is the code behind the main page of your website.
-8.  Click the File Preview icon (the magnifying glass). This will open the main page of your website in a new tab.
+In Codeanywhere:
+5. Click **index.html** to open it. This is the code behind the main page of your website.
+6. Click the File Preview icon (the magnifying glass). This will open the main page of your website in a new tab.
 
 <img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/index-and-file-preview.png" alt="index.html and File Preview icon">
 
