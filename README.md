@@ -22,15 +22,16 @@ Log into Github.
 1.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the **fork** button in the top right. This copies the codingandcupcakes code into a repository in your GitHub account.
 
 Log into Codeanywhere.
-2. In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
-3. In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
-4. For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
+2. If you have trouble in the next few steps, you may need to disable your browser's **pop-up blocker**. To do so, click the pop-up blocker icon at the far right of the address bar and select "Always allow pop-ups from codeanywhere.com".
+3. In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
+4. In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
+5. For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
 
 Refer to the screenshot below for steps 7 & 8.
 
 In Codeanywhere:
-5. Click **index.html** to open it. This is the code behind the main page of your website.
-6. Click the File Preview icon (the magnifying glass). This will open the main page of your website in a new tab.
+6. Click **index.html** to open it. This is the code behind the main page of your website.
+7. Click the File Preview icon (the magnifying glass). This will open the main page of your website in a new tab.
 
 <img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/index-and-file-preview.png" alt="index.html and File Preview icon">
 
