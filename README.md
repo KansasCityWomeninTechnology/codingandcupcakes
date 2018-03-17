@@ -86,7 +86,7 @@ Next we are going to add a form onto the Contact page, allowing people to email 
 ## Let's get stylish!
 1.  Create a new file called **style.css**
 2.  Look in index.html to see how the the mystyle.css page is linked in code. (Hint: Look for the ```link rel=”stylesheet”``` line of code)
-3.  Add a line of code _below_ the mystyle.css line of code. (Hint: copy the line of code, paste it below and modify it to point to your newly created style.css file.)
+3.  Copy the stylesheet line of code, paste it just below its current location, and modify the pasted text to point to your newly created style.css file. You should now have two stylesheet lines, with the first one linking to mystyles.css and the second one linking to style.css.
     *  You are going to be customizing the css in the style.css file, which currently is only working on the index.html page. If you want this customization to apply to the other Shop and Contact pages of your website, you should insert the line of ```link rel=”stylesheet”``` code that points to your style.css file onto the Shop and Contact pages too.
 4.  Open the **style.css** file in Codeanywhere.
 5.  Change your background color. See example here: [http://www.w3schools.com/css/css_background.asp](http://www.w3schools.com/css/css_background.asp)
