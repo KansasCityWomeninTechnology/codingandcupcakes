@@ -122,3 +122,6 @@ Did you love working with code? If you want to learn more on your own, we have s
 
 1.  Create an account on http://www.codecademy.com/
 2.  Complete this course on Codecademy: http://www.codecademy.com/courses/web-beginner-en-zmn0b/0/1?content_from=make-an-interactive-website%3Ayour-first-program
+
+---
+Please take a moment to let us know how the workshop went by completing a short [survey](https://docs.google.com/forms/d/e/1FAIpQLSez_eKdTOfZsfv_IrxAFOaW20Hp5o7q05uosXrGMw_2OTepIQ/viewform)!
