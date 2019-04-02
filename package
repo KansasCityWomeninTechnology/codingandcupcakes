@@ -1,0 +1,19 @@
+{
+  "name": "codingandcupcakes",
+  "version": "1.0.0",
+  "description": "Building a cupcakes website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KansasCityWomeninTechnology/codingandcupcakes.git"
+  },
+  "author": "Coding & Cupcakes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KansasCityWomeninTechnology/codingandcupcakes/issues"
+  },
+  "homepage": "https://github.com/KansasCityWomeninTechnology/codingandcupcakes#readme"
+}
