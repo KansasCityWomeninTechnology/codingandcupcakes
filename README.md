@@ -12,34 +12,33 @@ To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. 
 2.  Install Google Chrome at [www.google.com/chrome](www.google.com/chrome) - this is our preferred browser to work in.
 3.  If your daughter doesn’t have a Gmail account, set her up with one. (It’s ok to say she’s 14 on their age restriction piece)
     * Be sure to write down your username and password on the account reminder worksheet!
-4.  Create an account on [https://github.com](https://github.com)
+4.  Create a GitHub account on [https://github.com](https://github.com)
     * Be sure to write down your username and password on the account reminder worksheet!
     * Check your email for a GitHub verification email.
-5.  Sign up for a Codeanywhere account on [https://codeanywhere.com](https://codeanywhere.com)
-    * Make sure you use your Gmail account when you register.
-    * Check your email for a Codeanywhere verification email.  
+5.  Sign up for a CodeSandbox account on [https://codesandbox.io/](https://codesandbox.io/)
+    * Choose "Sign in with GitHub" and use the GitHub account you just created.
 
 ## Project Setup
 
 Log into Github.
 
 1.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the **fork** button in the top right. This copies the codingandcupcakes code into a repository in your GitHub account.
+2. In your own codingandcupcakes repository, go to Settings. Scroll down to the GitHub Pages section and set the GitHub Pages source to master branch (see screenshot).
 
-Log into Codeanywhere.
+<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/gh-pages-setting.png" alt="GitHub Pages Settings screenshot">
 
-2. If you have trouble in the next few steps, you may need to disable your browser's **pop-up blocker**. To do so, click the pop-up blocker icon at the far right of the address bar and select "Always allow pop-ups from codeanywhere.com".
-3. In the Codeanywhere editor, select **File** -> **New Connection** -> **Git from URL**.
-4. In the dialog box that appears, paste the URL of your Coding and Cupcakes GitHub repository: **ht<i></i>tps://github.com/{your GitHub username}/codingandcupcakes**, and click Next.
-5. For name, type **codingandcupcakes**. Select either of the HTML options from the list of development stacks and then click Create.
+Log into CodeSandbox.
 
-In Codeanywhere:
+1.  Click Create Sandbox.
+2.  In Popular Templates, scroll down and choose "Import from GitHub".
+3.  In the page that opens, click the “import wizard” link.
+4.  Copy and paste the url of YOUR codingandcupcakes repository as the GitHub URL.
+5. CodeSandbox should now show your **index.html** file. This is the code behind the main page of your website.
+7. If you want to see the full-page view of your website, you can click the "Open in New Window" icon. This will open your website in a new tab (see screenshot).
 
-6. Click **index.html** (see screenshot below) to open it. This is the code behind the main page of your website.
-7. Click the File Preview icon (the magnifying glass). This will open the main page of your website in a new tab.
+<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/view-in-new-window.png" alt="View in New Window screenshot">
 
-<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/index-and-file-preview.png" alt="index.html and File Preview icon">
-
-Tip: As you make updates on your website, be sure to _save_ frequently in Codeanywhere (shortcut command is CTRL + s on Windows; Command + s on Mac) and _refresh your browser_ (F5 on Windows; Command + R on Mac). This allows you to see changes made to the website immediately.  
+Tip: As you make updates on your website, be sure to _save_ frequently in CodeSandbox (shortcut command is CTRL + s on Windows; Command + s on Mac).   
 
 ## Customizing your website
 
@@ -55,23 +54,25 @@ Start looking for code to change in your **index.html** file to customize and ma
 
 ## Creating a Contact Page
 
-The easiest way to add another page to your website is to copy an existing page and then make changes to it.
+Now we'll add a new page to your website.
 
-1.  In Codeanywhere, right-click on **index.html** in the list of files and select Clone. Name the new file **contact.html**. Right now, it should contain the same code as the index.html file.
+1.  In CodeSandbox, click the "New File" icon in the left-hand Explorer sidebar. Name the new file **contact.html**.
+2.  Copy all the code from **index.html** into **contact.html**. This will ensure that your contacts page has the same structure and style as your index page.
 
-Next, you'll modify the content of the page. Let’s put the shop’s address so people know where to visit your store.
+Next, you'll modify the content of the contacts page. Let’s put the shop’s address so people know where to visit your store.
 
-2.  Look in the body section of the code for the ```<div class=”content”>``` section (approx. line 24 of the code).
-3.  In the content section of your contact page, add contact information between the ```<h1>``` and ```</h1>``` tags.
+2.  Look in the body section of the code for the ```<div class=”content”>``` section (approx. line 27 of the code).
+3.  In the content section of your contact page, add contact information between the ```<h2>``` and ```</h2>``` tags.
     *  Use paragraph tags to insert your contact information, and anything else you want to say. Note: It’s okay to erase the content between those tags.
-    *  You can use the Plexpod address:
+    *  You can use the VMLY&R address:
 
         ```
         <h2>Visit us at:</h2>
-        <p>Plexpod</p>
-        <p>300 E. 39th St.</p>
-        <p>Kansas City, MO 64111</p>
+        <p>VMLY&R</p>
+        <p>250 Richards Rd</p>
+        <p>Kansas City, MO 64116</p>
         ```
+    * Note: By the end of our session, your website will be live and viewable by the whole world. For safety's sake, please don't use your own personal address.
 
 Now let's modify the navigation, which lets us know where we are on the website. You can see how the navigation works by going to your website and clicking between the **Home** and **Shop** tabs in the header. Notice the gray shading and pink bar that highlight each tab as you click between them. We want to make the same thing happen when you click on the Contact page.
 
@@ -85,7 +86,7 @@ Next we are going to add a form onto the Contact page, allowing people to email 
 
 1.  This link has an example you can customize: [http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail)
 2.  Once you’ve customized the form in the link above, copy the tags and code of the **h2** and **form** sections.
-3.  In the **contact.html** file in Codeanywhere, after the paragraph tags you added for the **Visit us at** section, paste the copied h2 and form code over the existing **h2**, **p** and ```<ul> </ul>``` tags.
+3.  In the **contact.html** file in Codeanywhere, after the paragraph tags you added for the **Visit us at** section, paste the copied h2 and form code over the existing **p**, **h3** and ```<ul> </ul>``` tags.
 
 ## Adding Cupcakes to your Shop
 
@@ -106,15 +107,15 @@ Next we are going to add a form onto the Contact page, allowing people to email 
 
 ## Deploying Your Website
 
-1.  Open an SSH terminal in Codeanywhere by right-clicking on **codingandcupcakes** in the left sidebar and selecting **SSH Terminal**. When the terminal window opens, type the following bolded Git commands:
-    1.  **git status** - shows changes you've made to files on your local computer
-    2.  **git add --all** - adds files to the batch, kind of like adding ingredients to cupcake batter
-    3.  **git status** - the changes should show in green now instead of red
-    4.  **git commit -m "{your message here}"** - commits files with a message about what you changed
-    5.  **git push origin master** - pushes the changes to your branch in GitHub
-    6.  **git push origin master:gh-pages** - creates a page where your repository is hosted. Mine is [http://ajander.github.io/codingandcupcakes](http://ajander.github.io/codingandcupcakes)
+1.  Make sure you have saved all your changes in CodeSandbox.
+2.  Click the GitHub icon on the left sidebar (see screenshot).
+3.  Click "Sign In" and authorize CodeSandbox to connect with your GitHub account.
+4.  Click the GitHub icon again and fill in Subject in the Commit Info section. For example, "first commit".
+5.  Click Commit. This pushes all of the changes you've made to your GitHub account and makes your website viewable to the world at **your-github-username.github.io/codingandcupcakes**
 
-Note: You only need to type the **git push origin master:gh-pages** command once when you initially publish your website. If you make updates to your website at home and want to publish the changes, you can stop after **git push origin master**.
+<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/github-icon.png" alt="GitHub icon screenshot">
+
+You can use CodeSandbox to make more changes to your website after you leave today. Just do another commit when you're ready for those changes to be live and viewable on your public website!
 
 ## Homework
 
