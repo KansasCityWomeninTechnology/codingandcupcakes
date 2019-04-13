@@ -25,7 +25,7 @@ Log into Github.
 1.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the **fork** button in the top right. This copies the codingandcupcakes code into a repository in your GitHub account.
 2. In your own codingandcupcakes repository, go to Settings. Scroll down to the GitHub Pages section and set the GitHub Pages source to master branch (see screenshot).
 
-<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/gh-pages-setting.png" alt="GitHub Pages Settings screenshot">
+<img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/gh-pages-setting.PNG" alt="GitHub Pages Settings screenshot">
 
 Log into CodeSandbox.
 
