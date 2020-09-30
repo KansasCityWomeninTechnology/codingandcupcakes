@@ -19,6 +19,7 @@ To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. 
     * Choose "Sign in with GitHub" and use the GitHub account you just created.
 
 ## Project Setup
+Follow each steps carefully.
 
 Log into Github.
 
