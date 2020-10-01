@@ -4,7 +4,7 @@
 
 ## Overview
 
-To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. We’ll use a special editor in the browser that will save our work so we can work on our projects from home, the library, or school!
+To create a website, we use a couple of basic things - HTML, CSS, and JavaScript. We’ll use a special editor in the browser that will save our work so we can work on our projects from home, the library, or school!
 
 ## Prep Work
 
@@ -23,7 +23,7 @@ To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. 
 Log into Github.
 
 1.  Go to https://github.com/kansascitywomenintechnology/codingandcupcakes and hit the **fork** button in the top right. This copies the codingandcupcakes code into a repository in your GitHub account.
-2. In your own codingandcupcakes repository, go to Settings. Scroll down to the GitHub Pages section and set the GitHub Pages source to master branch (see screenshot).
+2. In your own codingandcupcakes repository, go to Settings. Scroll down to the GitHub Pages section and set the GitHub Pages source to the master branch (see screenshot).
 
 <img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/gh-pages-setting.PNG" alt="GitHub Pages Settings screenshot">
 
@@ -32,7 +32,7 @@ Log into CodeSandbox.
 1.  Click Create Sandbox.
 2.  In Popular Templates, scroll down and choose "Import from GitHub".
 3.  In the page that opens, click the “import wizard” link.
-4.  Copy and paste the url of YOUR codingandcupcakes repository as the GitHub URL.
+4.  Copy and paste the URL of YOUR codingandcupcakes repository as the GitHub URL.
 5. CodeSandbox should now show your **index.html** file. This is the code behind the main page of your website.
 7. If you want to see the full-page view of your website, you can click the "Open in New Window" icon. This will open your website in a new tab (see screenshot).
 
@@ -82,7 +82,7 @@ Now let's modify the navigation, which lets us know where we are on the website.
 
 ## Making a form
 
-Next we are going to add a form onto the Contact page, allowing people to email us with questions or comments. Again, the easiest way is to start with some existing code and then make our changes to it.  
+Next, we are going to add a form onto the Contact page, allowing people to email us with questions or comments. Again, the easiest way is to start with some existing code and then make our changes to it.  
 
 1.  This link has an example you can customize: [http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail)
 2.  Once you’ve customized the form in the link above, copy the tags and code of the **h2** and **form** sections.
@@ -97,20 +97,20 @@ Next we are going to add a form onto the Contact page, allowing people to email 
 ## Let's get stylish!
 
 1.  Create a new file called **style.css**
-2.  Look in index.html to see how the the mystyle.css page is linked in code. (Hint: Look for the ```link rel=”stylesheet”``` line of code)
+2.  Look in index.html to see how the mystyle.css page is linked in code. (Hint: Look for the ```link rel=”stylesheet”``` line of code)
 3.  Copy the stylesheet line of code, paste it just below its current location, and modify the pasted text to point to your newly created style.css file. You should now have two stylesheet lines, with the first one linking to mystyles.css and the second one linking to style.css.
-    *  You are going to be customizing the css in the style.css file, which currently is only working on the index.html page. If you want this customization to apply to the other Shop and Contact pages of your website, you should insert the line of ```link rel=”stylesheet”``` code that points to your style.css file onto the Shop and Contact pages too.
+    *  You are going to be customizing the CSS in the style.css file, which currently is only working on the index.html page. If you want this customization to apply to the other Shop and Contact pages of your website, you should insert the line of ```link rel=”stylesheet”``` code that points to your style.css file onto the Shop and Contact pages too.
 4.  Open the **style.css** file in Codeanywhere.
 5.  Change your background color. See example here: [http://www.w3schools.com/css/css_background.asp](http://www.w3schools.com/css/css_background.asp)
 6.  Change the background of the header and content as well. Want inspiration for a cool color palette? See example here: [https://color.adobe.com/explore/most-popular/?time=all](https://color.adobe.com/explore/most-popular/?time=all)
-7.  Choose a font from Google Fonts and add it to your html page, then call it in your styles. Check out the Google Fonts at fonts.google.com
+7.  Choose a font from Google Fonts and add it to your HTML page, then call it in your styles. Check out the Google Fonts at fonts.google.com
 
 ## Deploying Your Website
 
 1.  Make sure you have saved all your changes in CodeSandbox.
 2.  Click the GitHub icon on the left sidebar (see screenshot).
 3.  Click "Sign In" and authorize CodeSandbox to connect with your GitHub account.
-4.  Click the GitHub icon again and fill in Subject in the Commit Info section. For example, "first commit".
+4.  Click the GitHub icon again and fill in the Subject in the Commit Info section. For example, "first commit".
 5.  Click Commit. This pushes all of the changes you've made to your GitHub account and makes your website viewable to the world at **your-github-username.github.io/codingandcupcakes**
 
 <img src="https://github.com/KansasCityWomeninTechnology/codingandcupcakes/blob/master/img/github-icon.png" alt="GitHub icon screenshot">
