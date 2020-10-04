@@ -5,6 +5,7 @@
 ## Overview
 
 To create a web site, we use a couple basic things - HTML, CSS, and JavaScript. We’ll use a special editor in the browser that will save our work so we can work on our projects from home, the library, or school!
+More about Cupcake: A cupcake is a small cake designed to serve one person, which may also be baked in a small thin paper or aluminum cup. As with larger cakes,other cake decorations such as fruit and candy and frosting  may be applied.
 
 ## Prep Work
 
